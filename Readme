@@ -1,1 +1,19 @@
 This is the vagrant file using this we can create hightly availbel environment with 5 nodes which can be communicate with each other.
+
+for vagrant_2
+
+readme
+  process to create virtual machine using vagrant 
+
+prereqisite:  1. vagrant should be installed
+              2. virtualbox should be installed
+
+steps:
+      1. create one folder, cd to that folder, copy vagrant file in this folder.
+
+      2. open the Vagrantfile and edit line 20, change ip 10.72.6.77 to 10.72.6.78 for shrikar and 10.72.6.70 for grishma. and 
+         line number 8, stack122 for shrikar and stack123 for grishma. and line 11, change ip address of your host machine. it should be static ip of host machine.
+  
+      3. #vagrant up
+
+      4. #vagrant ssh
